@@ -1,0 +1,307 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 16px;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 'Noto Sans Korean',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+	/*font-family: 'Noto Sans Korean',-apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;*/
+	/*font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;*/
+	/*font-family: Roboto, Arial, sans-serif;*/
+	font-weight:500;
+	/*color:#000;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background:#f7f7f7;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration:none;
+    display:inline-block;
+}
+li{
+    list-style:none;
+}
+
+input {
+   -webkit-appearance: none;
+   /* -webkit-border-radius: 0; */
+}
+
+textarea{
+    resize:none;
+}
+
+/*img {*/
+/*    width: 100%;*/
+/*}*/
+img {
+    object-fit: contain;
+    max-width: 100%;
+    height: 100%;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+/*******************fonts********************/
+.common_title {
+    margin: 15px 0 20px 0;
+}
+.com_fonts075 {
+    font-size: 0.75rem;
+    color: #797979;
+}
+.com_fonts08 {
+    font-size: 0.8rem;
+    color: #797979;
+}
+.com_fonts09 {
+    font-size: 0.9rem;
+}
+.com_fonts10 {
+    font-size: 1rem;
+}
+.com_fonts11 {
+    font-size: 1.1rem;
+    font-weight: 600 !important;
+}
+.com_fonts12 {
+    font-size: 1.2rem;
+    font-weight: 600 !important;
+}
+.com_fonts13 {
+    font-size: 1.3rem;
+    font-weight: 600 !important; 
+}
+
+.com_textOrange {
+    color: #ef8454;
+}
+.com_textGray {
+    color: #797979;
+}
+.com_textBlack {
+    color: #000;
+}
+.com_textWhite {
+    color: #fff !important;
+}
+
+.com_fontW600 {
+    font-weight: 600;
+}
+
+/*******************button********************/
+.com_btn {
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.com_btn_90 {
+    width: 90px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.com_btn_110 {
+    width: 110px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.com_btn_130 {
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.com_btn_100p {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.com_popBtn_80 {
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.com_btn_orange {
+    background-color: #ef8454 !important;
+    color: #fff !important;
+    transition: 0.3s;
+}
+.com_btn_orange:hover {
+    background-color: #e7652a !important;
+    transition: 0.3s;
+}
+.com_btn_darkOrange {
+    background-color: #e7652a !important;
+    color: #fff !important;
+    transition: 0.3s;
+}
+.com_btn_darkOrange:hover {
+    background-color: #ef8454 !important;
+    transition: 0.3s;
+}
+.com_btn_line_orange {
+    border: 1px solid #ef8454 !important;
+    color: #ef8454 !important;
+}
+.com_btn_line_gray {
+    border: 1px solid #797979 !important;
+    color: #797979 !important;
+}
+
+/*******************input********************/
+.com_input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    margin: 5px 0 15px 0;
+    height: 45px;
+    outline: none;
+}
+.com_input100p {
+    width: 100%;
+    outline: none;
+}
+.com_input300 {
+    width: 300px;
+    outline: none;
+}
+.com_input450 {
+    width: 450px;
+    outline: none;
+}
+
+/*******************select********************/
+.emailSelect {
+    width: 130px;
+    padding-left: 10px;
+    margin: 5px 5px 0 0;
+}
+/* vuetify select style */
+.v-text-field.v-text-field--solo .v-input__control {
+    min-height: 45px;
+}
+.v-text-field.v-text-field--enclosed:not(.v-text-field--rounded) > .v-input__control > .v-input__slot, .v-text-field.v-text-field--enclosed .v-text-field__details {
+    margin-bottom: 0;
+}
+.v-text-field.v-text-field--enclosed .v-text-field__details {
+    display: none !important;
+}
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot {
+    box-shadow: none !important;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.v-select:not(.v-select--is-multi).v-text-field--single-line .v-select__selections {
+    font-size: 0.8rem;
+}
+
+
+/*******************password********************/
+.replayPassword {
+    margin: 5px 0 5px 0;
+}
+.errorText {
+    font-size: 0.8rem;
+    color: #ff0000;
+    margin-bottom: 0 !important;
+}
+
+/*******************popUp********************/
+.closeIcon {
+    position: absolute !important;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    opacity: 999;
+    /*font-size: 25px !important;*/
+}
+
+.cursorPoint {
+    cursor: pointer;
+}
+
+
+.overflowName {
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word;
+    /*line-height: 1.2em;*/
+}
+
+.temImg {
+    width: 100%;
+    height: 100%;
+}
+.imgHover {
+    transition: .3s;
+}
+.imgHover:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
